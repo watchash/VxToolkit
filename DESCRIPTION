@@ -1,0 +1,12 @@
+Package: VxToolkit
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Ian Deng
+Maintainer: Ian Deng <dengyufan24@outlook.com>
+Description: A self use package for some Vx trials tools in work. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Roxygen: list(markdown = TRUE)
