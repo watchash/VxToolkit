@@ -2,7 +2,7 @@
 % Please edit documentation in R/wilson_score_without_CC.R
 \name{power_wilson}
 \alias{power_wilson}
-\title{Calculate the power of a test for rate difference using Wilson score CI.}
+\title{Calculate the power of a test for rate difference using Wilson score CI}
 \usage{
 power_wilson(n, r1 = 0.5, p1, p2, alpha = 0.05, delta)
 }
@@ -37,11 +37,12 @@ score CI without continuity correction. The function enumerate all possible
 binary samples of a given sample size. The power is calculated as the average
 possibility (PMF of binomial distribution) of achieving positive test over all
 samples.
-
-#Note
+}
+\section{Note}{
 The test procedure is actually a one-sided test comparing the lower limit of
 Wilson score CI of rate difference and delta.
 }
+
 \examples{
 # example code
 

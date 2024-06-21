@@ -139,7 +139,7 @@ wilson_rd_ci <- function(x1, n1, x2, n2, alpha = 0.05, check = TRUE, output = c(
 }
 
 
-#' Calculate the power of a test for rate difference using Wilson score CI.
+#' Calculate the power of a test for rate difference using Wilson score CI
 #'
 #' @description
 #' This function calculate the power of a test for rate difference using Wilson
@@ -148,7 +148,8 @@ wilson_rd_ci <- function(x1, n1, x2, n2, alpha = 0.05, check = TRUE, output = c(
 #' possibility (PMF of binomial distribution) of achieving positive test over all
 #' samples.
 #'
-#' #Note
+#' @details # Note
+#'
 #' The test procedure is actually a one-sided test comparing the lower limit of
 #' Wilson score CI of rate difference and delta.
 #'

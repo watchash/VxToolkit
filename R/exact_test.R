@@ -162,6 +162,7 @@ power_exact_prop <- function(n, p, null_p, alpha = 0.05, side = c("U", "L", "Bot
 #'
 #' @returns A dataframe of Clopper-Pearson confidence interval.
 #'
+#' @export
 #' @importFrom stats qbeta
 #' @examples
 #' # example code
